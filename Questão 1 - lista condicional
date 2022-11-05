@@ -20,10 +20,8 @@ int main () {
 	
 	if(num2 > num1)
 		printf("O maior numero eh %d", num2);
-	else
 	
-		printf("Os numeros sao iguais");
-	printf("\n\n\n");
+	printf("\n\n");
 	printf("################# Fim #################");
 	
 }
