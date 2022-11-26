@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+int main()
+{
+	int opcao, primeiroNumero, segundoNumero;
+	
+	printf("\nEscolha uma opcao");
+	printf("\n1- Adicao");
+	printf("\n2- Subtracao");
+	printf("\n3- Multiplicao");
+	printf("\n4- Divisao");
+	printf("\n\nOpcao: ");
+	scanf("%d", &opcao);
+	
+	switch(opcao)
+	{
+		case 1:
+			printf("\nAdicao");
+			printf("\nDigite o primeiro numero: ");
+			scanf("%d", &primeiroNumero);
+			printf("Digite o segundo numero: ");
+			scanf("%d", &segundoNumero);
+			printf("\nResultado: %d", primeiroNumero + segundoNumero);
+			break;
+		
+		case 2:
+			printf("\nSubtracao");
+			printf("\nDigite o primeiro numero: ");
+			scanf("%d", &primeiroNumero);
+			printf("Digite o segundo numero: ");
+			scanf("%d", &segundoNumero);
+			printf("\nResultado: %d", primeiroNumero - segundoNumero);
+			break;
+		
+		case 3:
+			printf("\nMultiplicacao");
+			printf("\nDigite o primeiro numero: ");
+			scanf("%d", &primeiroNumero);
+			printf("Digite o segundo numero: ");
+			scanf("%d", &segundoNumero);
+			printf("\nResultado: %d", primeiroNumero * segundoNumero);
+			break;
+			
+		case 4:
+			printf("\nDivisao");
+			printf("\nDigite o primeiro numero: ");
+			scanf("%d", &primeiroNumero);
+			printf("Digite o segundo numero: ");
+			scanf("%d", &segundoNumero);
+			printf("\nResultado: %d", primeiroNumero / segundoNumero);
+			break;
+			
+		default:
+			printf("\nOpção invalida");
+			break;
+	}
+	
+	return 0;
+}
