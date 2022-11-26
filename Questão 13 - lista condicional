@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main (){
+	int n;
+	
+	printf("Informe o numero do mes: ");
+	scanf("%d",&n);
+	
+	if(n == 1){
+		printf("O mes eh: Janeiro");
+	}else if(n == 2){
+		printf("O mes eh: Fevereiro");
+	}else if(n == 3){
+		printf("O mes eh: Marco");
+	}else if(n == 4){
+		printf("O mes eh: Abril");
+	}else if(n == 5){
+		printf("O mes eh: Maio");
+	}else if(n == 6){
+		printf("O mes eh: Junho");
+	}else if(n == 7){
+		printf("O mes eh: Julho");
+	}else if(n == 8){
+		printf("O mes eh: Agosto");
+	}else if(n == 9){
+		printf("O mes eh: Setembro");
+	}else if(n == 10){
+		printf("O mês é: Outubro");
+	}else if(n == 11){
+		printf("O mês é: Novembro");
+	}else if(n == 12){
+		printf("O mês é: Dezembro");
+	}
+	
+	return (0);
+}
