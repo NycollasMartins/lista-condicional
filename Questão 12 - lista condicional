@@ -1,0 +1,49 @@
+#include <stdio.h>
+
+int main()
+{
+    float x, y;
+
+    printf("Informe a coordenada X: ");
+    scanf("%f", &x);
+
+    printf("Informe a coordenada Y: ");
+    scanf("%f", &y);
+
+    if (x > 0 && y > 0)
+    {
+        printf("Coordenada no quadrante I");
+    }
+    else if (x < 0 && y > 0)
+    {
+        printf("Coordenada no quadrante II");
+    }
+    else if (x < 0 && y < 0)
+    {
+        printf("Coordenada no quadrante III");
+    }
+    else if (x > 0 && y < 0)
+    {
+        printf("Coordenada no quadrante IV");
+    }
+    else if (x == 0 && y == 0)
+    {
+        printf("Coordenada na origem");
+    }
+    else if (x == 0)
+    {
+        printf("Coordenada no eixo Y");
+    }
+    else if (y == 0)
+    {
+        printf("Coordenada no eixo X");
+    }
+    else
+    {
+        printf("Coordenada invalida");
+    }
+    
+    getchar();
+    
+    return 0;
+}
